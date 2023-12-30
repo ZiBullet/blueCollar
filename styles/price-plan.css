@@ -66,6 +66,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 62px;
 }
 
 .main__price-plan__cards-card {
@@ -79,6 +80,7 @@
     padding: 40px 40px 50px;
     transition: .3s;
 }
+
 .main__price-plan__cards-card:hover {
     scale: 1.025;
 }
@@ -145,6 +147,7 @@
 }
 
 .main__price-plan__cards-card-content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -174,6 +177,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .main__price-plan__cards-card-content-benefits-item_text {
     color: #7e7e7e;
     font-size: 17px;
@@ -196,9 +200,46 @@
     border: none;
     transition: .3s;
 }
+
 .main__price-plan__cards-card-content-btn:hover {
     color: #fff;
     background: #7e7e7e;
     box-shadow: 6px 6px 10px #0000003c,
-    -4px -4px 10px #d7d7d7;
+        -4px -4px 10px #d7d7d7;
+}
+
+.main__price-plan__benefits {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main__price-plan__benefits-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.main__price-plan__benefits-block-title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.main__price-plan__benefits-block-title-block-title {
+    color: #1c2752;
+    font-family: "Mulish-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+}
+
+.main__price-plan__benefits-block-title-block-text {
+    color: #7e7e7e;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
 }
