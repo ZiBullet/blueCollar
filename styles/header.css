@@ -14,7 +14,7 @@
 }
 
 .header__opening__text {
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
@@ -66,7 +66,7 @@
     border-radius: 100px;
     width: 68px;
     height: 68px;
-    background: #ffb342;
+    background: var(--clr-orange);
     transition: .2s;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .header__logo-block__contacts-contact-block-desc-title {
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Mulish-Regular";
     font-size: 20px;
     font-weight: 400;
@@ -92,7 +92,7 @@
 }
 
 .header__logo-block__contacts-contact-block-desc-text {
-    color: #7e7e7e;
+    color: var(--clr-txt);
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
@@ -109,7 +109,7 @@
 .header__nav-wrap {
     padding: 10px 10px 10px 45px;
     height: 100%;
-    background: #ffb342;
+    background: var(--clr-orange);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -143,7 +143,7 @@
     align-items: center;
     justify-content: center;
     color: #f4f4f4;
-    background: #1c2752;
+    background: var(--def-clr-blue);
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
