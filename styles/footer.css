@@ -34,7 +34,7 @@
 .footer__heading-contacts-item-contact-img {
     width: 68px;
     height: 68px;
-    background: #ffb342;
+    background: var(--clr-orange);
     border-radius: 100px;
     display: flex;
     align-items: center;
@@ -65,7 +65,6 @@
 }
 
 .footer__needs {
-    /* width: 100%; */
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -109,7 +108,7 @@
 }
 
 .footer__needs-desc-links-item-link:hover {
-    background: #ffb342;
+    background: var(--clr-orange);
 }
 
 .footer__needs-nav {
@@ -143,7 +142,7 @@
 }
 
 .footer__needs-nav-explore-title {
-    color: #ffb342;
+    color: var(--clr-orange);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -165,7 +164,7 @@
     transition: .3s;
 }
 .footer__needs-nav-explore-list-item_link:hover {
-    color: #ffb342;
+    color: var(--clr-orange);
 }
 .footer__needs-nav-links {
     display: flex;
@@ -175,7 +174,7 @@
 }
 
 .footer__needs-nav-links-title {
-    color: #ffb342;
+    color: var(--clr-orange);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -200,7 +199,7 @@
 }
 
 .footer__needs-nav-links-list-item_link:hover {
-    color: #ffb342;
+    color: var(--clr-orange);
 }
 
 .footer__needs-pages {
@@ -211,7 +210,7 @@
 }
 
 .footer__needs-pages-title {
-    color: #ffb342;
+    color: var(--clr-orange);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -235,7 +234,7 @@
     transition: .3s;
 }
 .footer__needs-pages-list-item-link:hover {
-    color: #ffb342;
+    color: var(--clr-orange);
 }
 @keyframes lift {
     0% {

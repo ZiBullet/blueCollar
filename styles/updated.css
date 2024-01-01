@@ -26,7 +26,7 @@
     max-width: 192px;
     width: 100%;
     background: #f4f4f4;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
@@ -34,7 +34,7 @@
 }
 
 .main__updated__heading-title {
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 45px;
     font-weight: 400;
@@ -88,7 +88,7 @@
     gap: 10px;
     width: 180px;
     height: 62px;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-size: 15px;
     font-weight: 400;
     line-height: 23px;
@@ -106,7 +106,7 @@
 }
 
 .main__updated__cards-card-img-info-text:last-child {
-    background: #ffb342;
+    background: var(--clr-orange);
 }
 
 .main__updated__cards-card-content {
@@ -117,7 +117,7 @@
 }
 
 .main__updated__cards-card-content-title {
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -126,7 +126,7 @@
 }
 
 .main__updated__cards-card-content-text {
-    color: #7e7e7e;
+    color: var(--clr-txt);
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
@@ -137,7 +137,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -152,7 +152,7 @@
     transition: .3s;
 }
 .main__updated__cards-card-content-link:hover {
-    border-bottom: 1px solid #1c2752;
+    border-bottom: 1px solid var(--def-clr-blue);
 }
 .main__updated__cards-card-content-link:hover img {
     transform: translateX(4px);

@@ -1,6 +1,6 @@
 .main__recent {
     padding: 150px 0 160px;
-    background: #1c2752;
+    background: var(--def-clr-blue);
 }
 
 .main__recent__wrap {
@@ -25,7 +25,7 @@
     justify-content: center;
     gap: 10px;
     background: #f4f4f4;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
@@ -80,7 +80,7 @@
     max-width: 248px;
     width: 100%;
     text-align: center;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 25px;
     font-weight: 400;
@@ -92,7 +92,7 @@
 }
 
 .main__recent__cards-card-desc-text {
-    color: #7e7e7e;
+    color: var(--clr-txt);
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;

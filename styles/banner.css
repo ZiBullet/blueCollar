@@ -53,26 +53,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.36px;
-    background: #ffb342;
+    background: var(--clr-orange);
     border: 2px solid transparent;
-    transition: .2s;
+    transition: .3s;
 }
 .main__banner__services:hover {
     background: #fff;
 }
-
-
-
-
-
-
-
-
 
 @keyframes roll {
     0% {

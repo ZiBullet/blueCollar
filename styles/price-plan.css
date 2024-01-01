@@ -1,6 +1,6 @@
 .main__price-plan {
     padding: 140px 0 128px;
-    background: #f4f4f4;
+    background: var(--txt-mini-bg);
 }
 
 .main__price-plan__wrap {
@@ -33,7 +33,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     background: #fff;
     font-size: 17px;
     font-weight: 400;
@@ -43,7 +43,7 @@
 
 .main__price-plan__heading-title-block-title {
 
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 45px;
     font-weight: 400;
@@ -54,7 +54,7 @@
 .main__price-plan__heading-text {
     max-width: 585px;
     width: 100%;
-    color: #7e7e7e;
+    color: var(--clr-txt);
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
@@ -102,7 +102,7 @@
 }
 
 .main__price-plan__cards-card-heading-title-block-title {
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -110,7 +110,7 @@
 }
 
 .main__price-plan__cards-card-heading-title-block-price {
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -126,11 +126,11 @@
 }
 
 .main__price-plan__cards-card-heading-per-visit_stat {
-    background: #ffb342;
+    background: var(--clr-orange);
     height: 24px;
     width: 98px;
     text-align: center;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 400;
@@ -139,7 +139,7 @@
 }
 
 .main__price-plan__cards-card-heading-per-visit_text {
-    color: #7e7e7e;
+    color: var(--clr-txt);
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -169,7 +169,7 @@
 }
 
 .main__price-plan__cards-card-content-benefits-item_img {
-    border: 1px solid #ffb342;
+    border: 1px solid var(--clr-orange);
     height: 16px;
     width: 16px;
     border-radius: 100px;
@@ -179,7 +179,7 @@
 }
 
 .main__price-plan__cards-card-content-benefits-item_text {
-    color: #7e7e7e;
+    color: var(--clr-txt);
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
@@ -190,20 +190,20 @@
     cursor: pointer;
     width: 100%;
     height: 68px;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Inter-Regular", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.36px;
-    background: #ffb342;
+    background: var(--clr-orange);
     border: none;
     transition: .3s;
 }
 
 .main__price-plan__cards-card-content-btn:hover {
     color: #fff;
-    background: #7e7e7e;
+    background: var(--clr-txt);
     box-shadow: 6px 6px 10px #0000003c,
         -4px -4px 10px #d7d7d7;
 }
@@ -228,7 +228,7 @@
 }
 
 .main__price-plan__benefits-block-title-block-title {
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -237,7 +237,7 @@
 }
 
 .main__price-plan__benefits-block-title-block-text {
-    color: #7e7e7e;
+    color: var(--clr-txt);
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;

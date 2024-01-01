@@ -36,7 +36,7 @@
 }
 
 .main__reasons__poster-stats-item-num {
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -47,7 +47,7 @@
     justify-content: center;
     width: 110px;
     height: 100%;
-    background: #ffb342;
+    background: var(--clr-orange);
 }
 
 .main__reasons__poster-stats-item-text {
@@ -120,7 +120,7 @@
     justify-content: center;
     gap: 10px;
     background: #f4f4f4;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
@@ -131,7 +131,7 @@
     max-width: 506px;
     width: 100%;
     margin-bottom: 12px;
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 45px;
     font-weight: 400;
@@ -143,7 +143,7 @@
     max-width: 578px;
     width: 100%;
     margin-bottom: 38px;
-    color: #7e7e7e;
+    color: var(--clr-txt);
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
@@ -173,7 +173,7 @@
 }
 
 .main__reasons__desc-pros-block-pros_desc-title {
-    color: #1c2752;
+    color: var(--def-clr-blue);
     font-family: "Mulish-Regular", sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -182,7 +182,7 @@
 }
 
 .main__reasons__desc-pros-block-pros_desc-text {
-    color: #7e7e7e;
+    color: var(--clr-txt);
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
