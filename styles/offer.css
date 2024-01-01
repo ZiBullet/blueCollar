@@ -65,6 +65,7 @@
 }
 
 .main__offer__heading-types-btn {
+    position: relative;
     cursor: pointer;
     background: transparent;
     border: 1px solid #1c2752;
@@ -82,12 +83,21 @@
     gap: 10px;
     transition: .3s;
 }
-
 .main__offer__heading-types-btn:hover {
     background: #fff;
     border: 1px solid #fff;
 }
-
+.main__offer__heading-types-input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: -1;
+}
+.main__offer__heading-types-input:checked + .main__offer__heading-types-btn {
+    background: #fff;
+    border: 1px solid #fff;
+}
 .main__offer__install {
     max-width: 1160px;
     width: 100%;

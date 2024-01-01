@@ -82,7 +82,7 @@
     border-left: none;
     transition: .3s;
 }
-.main__subscribe__form-email-btn:hover {
+.main__subscribe__form-email-input:focus + .main__subscribe__form-email-btn, .main__subscribe__form-email-btn:hover {
     background: #1c2752;
     transform: translateX(-20px) translateZ(-20px);
     box-shadow: 4px 10px 15px #00000034;
