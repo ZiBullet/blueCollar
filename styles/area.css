@@ -51,6 +51,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -104,4 +105,16 @@
 }
 .main__area__services-service-desc-link:hover {
     color: var(--clr-orange);
+}
+@media screen and (max-width: 420px)  {
+    .main__area__services-service-desc-title {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .main__area__services-service-desc-text {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 16px;
+    }
 }

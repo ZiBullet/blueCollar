@@ -61,6 +61,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -99,9 +100,8 @@
     border: 1px solid #fff;
 }
 .main__offer__install {
-    max-width: 1160px;
-    width: 100%;
-    height: 528px;
+    width: 96%;
+    height: max-content;
     position: absolute;
     bottom: -228px;
     padding: 60px;
@@ -176,3 +176,38 @@
     background: #fff;
     border: 1px solid var(--def-clr-blue);
 }
+.main__offer__install-poster {
+    max-width: 416px;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 1100px) {
+    .main__offer {
+        height: 1248px;
+    }
+    .main__offer__install {
+        padding: 45px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .main__offer__install-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 850px) {
+    .main__offer {
+        height: 1356px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .main__offer {
+        height: 1464px;
+    }
+}
+@media screen and (max-width: 570px) {
+    .main__offer {
+        height: 1652px;
+    }
+} 
