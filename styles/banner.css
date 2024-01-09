@@ -75,3 +75,24 @@
         transform: rotateZ(360deg);
     }
 }
+@media screen and (max-width: 620px) {
+    .main__banner__solutions {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .main__banner__title {
+        font-size: 45px;
+        line-height: 66px;
+    }
+} 
+@media screen and (max-width: 420px) {
+    .main__banner__title {
+        font-size: 30px;
+        line-height: 54px;
+    }
+    .main__banner__services {
+        max-width: 198px;
+        height: 54px;
+    }
+} 
