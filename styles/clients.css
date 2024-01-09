@@ -3,9 +3,11 @@
 }
 
 .main__clients__wrap {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 60px 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px 40px;
 }
 
 .main__clients__testimonial {
@@ -207,10 +209,14 @@
     width: 50px;
     border-radius: 100px;
     height: 50px;
+    padding: 25px;
     background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.main__clients__testimonial-quest-phone_img img {
+    object-fit: contain;
 }
 
 .main__clients__testimonial-quest-phone span {
@@ -318,7 +324,6 @@
 }
 
 .main__clients__trusted {
-    grid-column: 1/3;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -332,6 +337,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     gap: 22px;
 }
 
@@ -363,4 +369,14 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+@media screen and (max-width: 490px) {
+    .main__clients__testimonial-quest-phone span {
+        font-size: 20px;
+    }
+    .main__clients__meet-form-input {
+        padding: 10px 25px;
+    }
 }
