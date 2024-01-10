@@ -65,8 +65,10 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 62px;
+    gap: 15px 30px;
 }
 
 .main__price-plan__cards-card {
@@ -210,11 +212,15 @@
 
 .main__price-plan__benefits {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .main__price-plan__benefits-block {
+    max-width: 554px;
+    width: 100%;
     display: flex;
     align-items: flex-start;
     gap: 15px;
@@ -242,4 +248,50 @@
     font-weight: 400;
     line-height: 27px;
     letter-spacing: 0.36px;
+}
+@media screen and (max-width: 1145px) {
+    .main__price-plan__heading {
+        text-align: center;
+        flex-direction: column;
+    }
+    .main__price-plan__heading-title-block {
+        align-items: center;
+    }
+}
+@media screen and (max-width: 650px) {
+    .main__price-plan__heading-title-block-title {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .main__price-plan__heading-text {
+        font-size: 16px;
+    }
+    .main__price-plan__benefits {
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .main__price-plan__cards-card {
+        height: max-content;
+        padding: 15px;
+    }
+    .main__price-plan__cards-card-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding-bottom: 18px;
+    }
+    .main__price-plan__cards-card-content {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .main__price-plan__heading-title-block-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .main__price-plan__heading-text {
+        font-size: 14px;
+    }
 }

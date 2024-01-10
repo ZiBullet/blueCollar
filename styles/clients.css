@@ -373,10 +373,25 @@
     gap: 15px;
 }
 @media screen and (max-width: 490px) {
+    .main__clients__testimonial-comment-content-text {
+        font-size: 16px;
+    }
     .main__clients__testimonial-quest-phone span {
         font-size: 20px;
     }
     .main__clients__meet-form-input {
         padding: 10px 25px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .main__clients__testimonial-comment {
+        padding: 15px;
+    }
+    .main__clients__testimonial-comment-heading {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    .main__clients__meet-form-input {
+        font-size: 14px;
     }
 }

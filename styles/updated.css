@@ -15,10 +15,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 22px;
 }
 
 .main__updated__heading-text-mini {
+    padding: 0 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,11 +47,14 @@
 .main__updated__cards {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .main__updated__cards-card {
-    width: 580px;
+    max-width: 580px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -58,7 +63,8 @@
 
 .main__updated__cards-card-img {
     width: 100%;
-    height: 364px;
+    max-height: 364px;
+    height: 100%;
     position: relative;
 }
 
@@ -86,7 +92,8 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 180px;
+    max-width: 180px;
+    width: 100%;
     height: 62px;
     color: var(--def-clr-blue);
     font-size: 15px;
@@ -156,4 +163,48 @@
 }
 .main__updated__cards-card-content-link:hover img {
     transform: translateX(4px);
+}
+@media screen and (max-width: 680px) {
+    .main__updated__cards-card-content-title {
+        font-size: 24px;
+        line-height: 38px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .main__updated__heading-title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .main__updated__cards-card {
+        gap: 15px;
+    }
+    .main__updated__cards-card-img-info {
+        display: none;
+    }
+    .main__updated__cards-card-content {
+        gap: 10px;
+    }
+    .main__updated__cards-card-content-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .main__updated__cards-card-content-link {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .main__updated__cards-card-content {
+        gap: 5px;
+    }
+    .main__updated__cards-card-content-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .main__updated__cards-card-content-text {
+        max-height: 134px;
+        height: 100%;
+        overflow: hidden;
+        font-size: 14px;
+        line-height: 22px;
+    }
 }
