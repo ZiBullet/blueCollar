@@ -1,7 +1,3 @@
-.header {
-    position: relative;
-}
-
 .header__opening {
     background: #f2f2f2;
     padding: 20px 0;
@@ -38,6 +34,7 @@
 }
 
 .header__logo-block {
+    position: relative;
     padding: 30px 0 60px;
 }
 
@@ -102,7 +99,7 @@
 
 .header__nav {
     position: absolute;
-    bottom: -55px;
+    top: 82%;
     width: 100%;
     height: max-content;
 }
@@ -158,9 +155,6 @@
     background: #fff;
 }
 @media screen and (max-width: 1020px) {
-    .header__nav {
-        bottom: -68px;
-    }
     .header__nav-wrap {
         padding: 10px;
         flex-direction: column;
@@ -184,10 +178,5 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
-    }
-}
-@media screen and (max-width: 480px) {
-    .header__nav {
-        bottom: -88px;
     }
 }
