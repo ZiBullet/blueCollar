@@ -23,9 +23,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .footer__heading-contacts-item-contact {
+    max-width: 288px;
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -34,6 +38,7 @@
 .footer__heading-contacts-item-contact-img {
     width: 68px;
     height: 68px;
+    padding: 34px;
     background: var(--clr-orange);
     border-radius: 100px;
     display: flex;
@@ -41,7 +46,11 @@
     justify-content: center;
     transition: .3s;
 }
-
+.footer__heading-contacts-item-contact-img img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
 .footer__heading-contacts-item-contact:hover .footer__heading-contacts-item-contact-img {
     scale: 1.05;
     background: #fff;
@@ -69,6 +78,8 @@
     align-items: flex-start;
     justify-content: space-between;
     border-bottom: 1px solid #4b557d;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
 .footer__needs-desc {
@@ -243,5 +254,49 @@
         bottom: 60px;
     } 100% {
         bottom: -140px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .footer__heading {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .footer {
+        padding-bottom: 20px;
+    }
+    .footer__needs {
+        justify-content: center;
+        padding: 5px 0;
+    }
+    .footer__wrap {
+        gap: 20px;
+    }
+    .footer__needs-desc {
+        height: max-content;
+        margin-bottom: 20px;
+    }
+    .footer__needs-line {
+        transform: rotate(90deg);
+        animation: none;
+    }
+    .footer__needs-line-left {
+        top: -120px;
+    }
+    .footer__needs-line-right {
+        right: 50%;
+        bottom: -125px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .footer__heading-contacts {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 520px) {
+    .footer__heading-contacts {
+        justify-content: flex-start;
     }
 }
