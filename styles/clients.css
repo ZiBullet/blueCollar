@@ -379,6 +379,9 @@
     .main__clients__testimonial-quest-phone span {
         font-size: 20px;
     }
+    .main__clients__meet-form {
+        padding: 70px 10px;
+    }
     .main__clients__meet-form-input {
         padding: 10px 25px;
     }

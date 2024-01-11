@@ -111,7 +111,10 @@
     .main__subscribe__form-email-input {
         border: 2px solid #fff;
     }
-    .main__subscribe__form-email-input:focus + .main__subscribe__form-email-btn {
+    .main__subscribe__form-email-btn {
+        max-width: 100%;
+    }
+    .main__subscribe__form-email-input:focus + .main__subscribe__form-email-btn, .main__subscribe__form-email-btn:hover {
         transform: none;
     }
 }
