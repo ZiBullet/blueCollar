@@ -104,6 +104,10 @@
     .main__subscribe {
         height: max-content;
     }
+    .main__subscribe__form {
+        max-width: 390px;
+        height: max-content;
+    }
     .main__subscribe__form-email {
         flex-direction: column;
         gap: 10px;
@@ -112,7 +116,7 @@
         border: 2px solid #fff;
     }
     .main__subscribe__form-email-btn {
-        max-width: 100%;
+        max-width: 390px;
     }
     .main__subscribe__form-email-input:focus + .main__subscribe__form-email-btn, .main__subscribe__form-email-btn:hover {
         transform: none;
